@@ -2,8 +2,9 @@
 title: "PA1_template"
 author: "David Harter"
 project: "Reproducible Research Course Project 1"
-date: "8/9/2018"
+date: "8/10/2018"
 output: html_document
+fig.path: 'figure/'
 ---
 
 This R markdown script will create a markdown file that can be converted into HTML by knitr.  The final document will include all charts and statistics required by the project description.
