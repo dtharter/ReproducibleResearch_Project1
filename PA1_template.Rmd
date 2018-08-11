@@ -22,6 +22,7 @@ Next, we do our preliminary work, including all necessary libraries, checking to
 library(dplyr)
 
 # Read the activity file.
+unzip(zipfile = "activity.zip")
 activity <- read.csv("activity.csv")
 ```
 
